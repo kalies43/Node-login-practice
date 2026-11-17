@@ -1,0 +1,20 @@
+{
+  "name": "simple-login-system",
+  "version": "1.0.0",
+  "description": "Simple login system made for learning node,docker,sqlite and how web backend works",
+  "homepage": "https://github.com/kalies43/Node-login-practice#readme",
+  "bugs": {
+    "url": "https://github.com/kalies43/Node-login-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalies43/Node-login-practice.git"
+  },
+  "license": "ISC",
+  "author": "Liz-bert V. Puyawan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Hello, World!\")"
+  }
+}
