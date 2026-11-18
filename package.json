@@ -12,9 +12,11 @@
   },
   "license": "ISC",
   "author": "Liz-bert V. Puyawan",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "console.log(\"Hello, World!\")"
+    "test": "echo \"No tests yet\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   }
 }
