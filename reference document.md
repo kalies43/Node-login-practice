@@ -356,7 +356,7 @@ Use this as you go. Honest notes are more valuable than polished ones.
 
 | Date | Phase | What I built | What confused me | How I solved it |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| Nov 19 | 1 | HTTP server | The req and res variables. And FS module and what is promise vs await | Just looked at analogies for await and promise, and asked AI what sub-properties does req have and how to use it. Without telling me directly what the answer is. |
 
 ---
 
