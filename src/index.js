@@ -41,9 +41,17 @@ countLinesSimple('data/exampletext.txt')
   .catch((err) => console.error('Error reading file:', err));
 
 const httpServer = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Hello, World!</h1>');
+  console.log(req.method, req.url);
+  if (req.url === "/"){
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/html');
+    res.end('<h1>Hello, World!</h1>');
+  } else {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'text/html');
+    res.end('<h1>404 Not Found</h1>');
+  }
+
 });
 
 httpServer.listen(3000, () => {

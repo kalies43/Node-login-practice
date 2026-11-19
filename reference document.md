@@ -108,8 +108,8 @@ I think node is the program and npm is the one that supplies that the program ne
 - ~~\[ \] Write a script that lists all files in a folder~~
 - ~~\[ \] Write a script that reads a file and counts its lines~~
 - ~~\[ \] Using only the built-in~~ ~~`http`~~ ~~module, create a server that responds with text~~
-- \[ \] Make that server respond differently depending on the URL requested
-- \[ \] Log every incoming request (method and URL) to the terminal
+- ~~\[ \] Make that server respond differently depending on the URL requested~~
+- ~~\[ \] Log every incoming request (method and URL) to the terminal~~
 
 **Concepts to look up**
 
@@ -121,6 +121,8 @@ I think node is the program and npm is the one that supplies that the program ne
 **Done when:** you can open `localhost:<port>` in a browser and see different responses for different paths.
 
 **Reflection:** In your own words, what happens between the moment you press Enter in the browser and the moment text appears on the page?
+
+I think the moment I press Enter, my pc requests to have access to the resource or the website that my Node.js serves which is at this moment, the http.createServer’s res.end.
 
 ---
 
