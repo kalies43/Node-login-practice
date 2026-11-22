@@ -151,6 +151,8 @@ I think the moment I press Enter, my pc requests to have access to the resource 
 
 **Reflection:** What problem does Express solve compared to the raw `http` module?
 
+It creates reusable code and overall good coding design. And it doesn't look cluttered for me. It also handles the http methods easier for me to look at and later on review what might be wrong.
+
 ---
 
 ## Phase 3: Database with SQLite

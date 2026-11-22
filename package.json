@@ -17,7 +17,7 @@
   "scripts": {
     "test": "echo \"No tests yet\" && exit 1",
     "start": "node --env-file=.env src/index.js",
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch --env-file=.env src/index.js"
   },
   "dependencies": {
     "express": "^5.3.0"
