@@ -161,14 +161,14 @@ It creates reusable code and overall good coding design. And it doesn't look clu
 
 **Tasks**
 
-- \[ \] Choose and install an SQLite library for Node
-- \[ \] Create a database file inside `data/`
-- \[ \] Design a `users` table (decide which columns you need and why)
-- \[ \] Make the table creation run safely every time the server starts
-- \[ \] Write code to insert a test user
-- \[ \] Write code to look up a user by username
-- \[ \] Verify the data persists after restarting the server
-- \[ \] Inspect the database file using an SQLite viewer or the `sqlite3` CLI
+- \[ \] ~~Choose and install an SQLite library for Node~~
+- \[ \] ~~Create a database file inside~~ ~~`data/`~~
+- \[ \] ~~Design a~~ ~~`users`~~ ~~table (decide which columns you need and why)~~
+- \[ \] ~~Make the table creation run safely every time the server starts~~
+- \[ \] ~~Write code to insert a test user~~
+- \[ \] ~~Write code to look up a user by username~~
+- \[ \] ~~Verify the data persists after restarting the server~~
+- \[ \] ~~Inspect the database file using an SQLite viewer or the~~ ~~`sqlite3`~~ ~~CLI~~
 
 **Concepts to look up**
 
@@ -180,6 +180,8 @@ It creates reusable code and overall good coding design. And it doesn't look clu
 **Done when:** you can insert and retrieve a user, and trying to insert a duplicate username fails in a controlled way.
 
 **Reflection:** Why is a `UNIQUE` constraint on the database safer than only checking in your JavaScript code?
+
+This is to prevent input of duplicate entries like same ID or same email address.
 
 ---
 
